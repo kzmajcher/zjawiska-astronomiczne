@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--responsywność-->
+    <title>Kalendarz | Nocne Niebo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div>Zjawiska Astronomiczne</div>
+
+      <ul class="nav-links">
+        <li>
+          <a href="html">Start</a>
+        </li>
+        <li>
+          <a href="kalendarz.html">Kalendarz</a>
+        </li>
+        <li class="nav-links">
+          <a href="kontakt.html">Alerty</a>
+        </li>
+      </ul>
+
+      <div>
+        <button id="theme-toggle">🌓</button>
+      </div>
+    </nav>
+    <main>
+      <header>
+        <h1 data-pl="Harmonogram Obserwacji" data-en="Observation Schedule">
+          Harmonogram Obserwacji
+        </h1>
+      </header>
+
+      <section class="gallery-grid">
+        <article class="event-card">
+          <img src="media/roj_leonidow.png" alt="Rój Meteorów Leonidów" />
+          <div>
+            <h3>Rój Leonidów</h3>
+            <p class="date">09.11.2026</p>
+          </div>
+        </article>
+
+        <article class="event-card">
+          <img src="media/new_moon.png" alt="Nów Księżyca" />
+          <div>
+            <h3>Nów Księżyca</h3>
+            <p class="date">23.11.2026</p>
+          </div>
+        </article>
+
+        <article class="event-card">
+          <img src="media/fullMoon.png" alt="Pełnia Księżyca" />
+          <div>
+            <h3>Pełnia Księżyca</h3>
+            <p class="date">24.11.2026</p>
+          </div>
+        </article>
+
+        <article class="event-card">
+          <img src="media/row_geminidow.png" alt="Rój Meteorów Geminów" />
+          <div>
+            <h3>Rój Meteorów Geminów</h3>
+            <p class="date">13.12.2026</p>
+          </div>
+        </article>
+
+        <article class="event-card">
+          <img src="media/anstronomiczna_zima.png" alt="Astronomiczna Zima" />
+          <div>
+            <h3>Astronomiczna Zima</h3>
+            <p class="date">21.12.2026</p>
+          </div>
+        </article>
+
+        <article class="event-card">
+          <img src="media/row_ursydow.png" alt="Rój Meteorów Ursydów" />
+          <div>
+            <h3>Rój Meteorów Ursydów</h3>
+            <p class="date">22.12.2026</p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>Projekt Aplikacje Internetowe | Autor: Katarzyna Majcher</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
